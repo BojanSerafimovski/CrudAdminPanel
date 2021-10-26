@@ -1,0 +1,79 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: url('../images/background.jpg') no-repeat fixed center, linear-gradient(to bottom, gray, white);
+    background-size: cover;
+}
+
+* {
+    font-family: 'Lora', serif;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+#employee_button {
+    transform: translateY(3.5rem);
+}
+
+    #employee_button i {
+        margin-right: 0.5rem;
+    }
+
+#employeeTable {
+    width: 100%;
+}
+
+.field-validation-error {
+    color: darkred;
+    font-weight: bold;
+}
+
+input.input-validation-error {
+    border: 1px solid darkred;
+}
+
+.edit_btn, .reset_btn {
+    margin-right: 0.5rem;
+    background: rgba(0,0,0,0.2);
+}
+
+table.dataTable {
+    background: white;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+    font-weight: bold;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .title span {
+        font-weight: bold;
+        color: #5cb85c;
+        text-shadow: 1px 0.5px 1px black;
+    }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataTables_length {
+    display: none;
+}
